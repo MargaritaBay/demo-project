@@ -1,0 +1,110 @@
+Today July 12 , 2022
+
+
+	First Class --> Tuesday / Wednesday --> CI/CD
+
+			- Understand flow
+
+			- Create a server (EC2)
+
+		    - Setup jenkins
+
+		    - Create Jenkins Job and Get report
+
+
+	Second Class --> Saturday --> Selenium Grid
+
+			- Create another instance to set up Selenium Grid with Docker
+
+			- Run tests with Selenium Grid
+
+			- Understand the flow
+
+	Following Class -- SQL (4 Class -- SQL. / 3 Class JDBC  )
+
+			- We are gonna use Ultimate version of Intellij to connect database
+			- If you dont have ultimate version open a ticket to get support
+
+
+
+
+   == CI (Continous Integration )/ CD (Continuous Delivery / Deployment ) ==
+
+
+   	It is journey of the application
+
+
+
+   	how much we need it ?
+
+
+   		- It is not our job to do day to day
+
+   		- We will involve that process.It is inevitable
+
+
+
+
+   	VCS --- TEST ENV
+
+
+   		Build :  It makes your application available as jar file (ear, war,jar)
+
+   		Code Analysis :  IT will check codes in terms of potential issues , leaks , infinite loops so on
+
+   		Unit / Integration : This not our job to test.Developer will do this tests
+
+   		We are not gonna involve that stage.GOOD TO KNOW
+
+
+   	TEST ENV --- STAGING
+
+       Smoke :
+
+       			Doing knock knock.Application needs to be up and running.
+
+       			Example :
+
+       				It is not too much.10 to 50
+       				Approximately it will take 10-15 min
+
+
+
+       Regression : To make sure ENTIRE APP functionality are working properly
+
+
+       Performance Test : It is not our job.We are not gonna do this
+
+       				- JMeter is one of the popular tools
+       				- This test is DONE in Test Env
+       				- It is good have dedicated env
+
+       Deploy : It will make your application available for another env
+
+
+   	STAGING --- PROD
+
+       Staging Env : We are preparing application to do prod
+
+
+       	UAT : It can be DONE from BA, PO or maybe there is dedicated team for UAT
+
+       	Release : It makes application available for real users / production
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
